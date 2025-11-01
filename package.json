@@ -1,0 +1,22 @@
+{
+  "name": "rent-managing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix client\" \"npm run dev --prefix server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icyretsz/rent-managing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Icyretsz/rent-managing/issues"
+  },
+  "homepage": "https://github.com/Icyretsz/rent-managing#readme",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
